@@ -112,6 +112,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7j6-4z-cpR"/>
                     </view>
+                    <connections>
+                        <outlet property="bigRobot" destination="7bw-jy-0EG" id="Kkd-jj-frT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ix5-Ui-xKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
