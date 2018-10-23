@@ -11,6 +11,9 @@
 		CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB1217E1CFF0078FB70 /* Fonts.swift */; };
 		CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB3217E24350078FB70 /* MainButton.swift */; };
 		CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB5217F56BF0078FB70 /* Colors.swift */; };
+		CD84FDB8217F61390078FB70 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB7217F61390078FB70 /* IntroViewController.swift */; };
+		CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */; };
+		CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
 		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
 		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		CD84FDB1217E1CFF0078FB70 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CD84FDB3217E24350078FB70 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		CD84FDB5217F56BF0078FB70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CD84FDB7217F61390078FB70 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC4124821746422006C7E3C /* MainViewController.swift */,
+				CD84FDB7217F61390078FB70 /* IntroViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -64,6 +71,8 @@
 		CD84FDAD217E1BDB0078FB70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */,
+				CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */,
 				CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */,
 				CDC4124D21746424006C7E3C /* Assets.xcassets */,
 				CDC4125221746424006C7E3C /* Info.plist */,
@@ -167,8 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */,
+				CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */,
 				CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */,
 				CDC4124C21746422006C7E3C /* Main.storyboard in Resources */,
+				CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +192,7 @@
 			files = (
 				CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */,
 				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
+				CD84FDB8217F61390078FB70 /* IntroViewController.swift in Sources */,
 				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,
 				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
 				CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */,

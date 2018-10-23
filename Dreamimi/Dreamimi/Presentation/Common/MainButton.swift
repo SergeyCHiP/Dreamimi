@@ -13,13 +13,13 @@ class MainButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-//        titleLabel?.font = .rb16
+        titleLabel?.font = .rb16
         backgroundColor = .red
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-//        titleLabel?.font = .rb16
+        titleLabel?.font = .rb16
         backgroundColor = .red
     }
     
