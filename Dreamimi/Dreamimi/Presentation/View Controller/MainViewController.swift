@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Dreamimi
 //
 //  Created by Sergey Germanovich on 15/10/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class MainViewController: UIViewController {
 
     @IBOutlet private weak var flashButton: UIButton!
     

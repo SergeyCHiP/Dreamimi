@@ -12,7 +12,7 @@
 		CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB3217E24350078FB70 /* MainButton.swift */; };
 		CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB5217F56BF0078FB70 /* Colors.swift */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
-		CDC4124921746422006C7E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* ViewController.swift */; };
+		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
 		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
 		CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124D21746424006C7E3C /* Assets.xcassets */; };
 		CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */; };
@@ -25,7 +25,7 @@
 		CD84FDB5217F56BF0078FB70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDC4124821746422006C7E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CDC4124B21746422006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC4124D21746424006C7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC4125021746424006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		CD84FDAC217E1A8B0078FB70 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CDC4124821746422006C7E3C /* ViewController.swift */,
+				CDC4124821746422006C7E3C /* MainViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 			files = (
 				CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */,
 				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
-				CDC4124921746422006C7E3C /* ViewController.swift in Sources */,
+				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,
 				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
 				CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */,
 				CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */,
