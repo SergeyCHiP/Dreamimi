@@ -13,6 +13,7 @@
 		CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB5217F56BF0078FB70 /* Colors.swift */; };
 		CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBD217F6A370078FB70 /* Shakable.swift */; };
 		CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */; };
+		CD84FDC7217F8F280078FB70 /* MainViewController-World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
 		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
 		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		CD84FDB5217F56BF0078FB70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CD84FDBD217F6A370078FB70 /* Shakable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
 		CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
+		CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		CD84FDAC217E1A8B0078FB70 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD84FDC5217F8F0C0078FB70 /* Helper */,
 				CDC4124821746422006C7E3C /* MainViewController.swift */,
 			);
 			path = "View Controller";
@@ -86,6 +89,14 @@
 				CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		CD84FDC5217F8F0C0078FB70 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		CDC4123A21746422006C7E3C = {
@@ -187,6 +198,7 @@
 			files = (
 				CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */,
 				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
+				CD84FDC7217F8F280078FB70 /* MainViewController-World.swift in Sources */,
 				CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */,
 				CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */,
 				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,

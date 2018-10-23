@@ -12,22 +12,23 @@ final class MainViewController: UIViewController {
 
     // MARK: - IBOutlet
     
-    @IBOutlet private weak var cloudOne: UIImageView!
-    @IBOutlet private weak var cloudTwo: UIImageView!
-    @IBOutlet private weak var lightning: UIImageView! {
-        didSet { lightning.alpha = 0 }
-    }
-    @IBOutlet private weak var flashButton: UIButton!
+    @IBOutlet weak var cloudOne: UIImageView! { didSet { cloudOne.isHidden = true } }
+    @IBOutlet weak var cloudTwo: UIImageView! { didSet { cloudTwo.isHidden = true } }
+    @IBOutlet weak var lightning: UIImageView! { didSet { lightning.alpha = 0 } }
+    @IBOutlet weak var flashButton: UIButton!
+    
+    
+    // MARK: - Public Property
+    
+    var needSomeSmashing = false
+    
     
     // MARK: - UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        cloudOne.addParallax(withValue: -60)
-        cloudTwo.addParallax(withValue: 40)
-        flashButton.addParallax(withValue: -20)
     }
+    
     
     // MARK: - IBAction
 
@@ -37,6 +38,7 @@ final class MainViewController: UIViewController {
         // Вызываем taptic feedback с типом success
         generator.notificationOccurred(.error)
         flashButton.shake()
+        smashEverthing()
     }
     
 }
