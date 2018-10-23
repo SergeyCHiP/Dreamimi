@@ -14,6 +14,8 @@
 		CD84FDB8217F61390078FB70 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB7217F61390078FB70 /* IntroViewController.swift */; };
 		CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */; };
 		CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */; };
+		CD84FDC3217F6FCB0078FB70 /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDC1217F6FCB0078FB70 /* Shakable.swift */; };
+		CD84FDC4217F6FCB0078FB70 /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDC2217F6FCB0078FB70 /* ParallaxMotion.swift */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
 		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
 		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		CD84FDB7217F61390078FB70 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
 		CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		CD84FDC1217F6FCB0078FB70 /* Shakable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
+		CD84FDC2217F6FCB0078FB70 /* ParallaxMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -83,10 +87,12 @@
 		CD84FDAE217E1C190078FB70 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CD84FDB5217F56BF0078FB70 /* Colors.swift */,
 				CD84FDB1217E1CFF0078FB70 /* Fonts.swift */,
 				CD84FDAF217E1CD20078FB70 /* Label.swift */,
 				CD84FDB3217E24350078FB70 /* MainButton.swift */,
-				CD84FDB5217F56BF0078FB70 /* Colors.swift */,
+				CD84FDC2217F6FCB0078FB70 /* ParallaxMotion.swift */,
+				CD84FDC1217F6FCB0078FB70 /* Shakable.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -194,9 +200,11 @@
 				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
 				CD84FDB8217F61390078FB70 /* IntroViewController.swift in Sources */,
 				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,
+				CD84FDC3217F6FCB0078FB70 /* Shakable.swift in Sources */,
 				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
 				CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */,
 				CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */,
+				CD84FDC4217F6FCB0078FB70 /* ParallaxMotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
