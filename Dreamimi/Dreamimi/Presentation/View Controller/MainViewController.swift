@@ -12,12 +12,21 @@ final class MainViewController: UIViewController {
 
     // MARK: - IBOutlet
     
+    @IBOutlet private weak var cloudOne: UIImageView!
+    @IBOutlet private weak var cloudTwo: UIImageView!
+    @IBOutlet private weak var lightning: UIImageView! {
+        didSet { lightning.alpha = 0 }
+    }
     @IBOutlet private weak var flashButton: UIButton!
     
     // MARK: - UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        cloudOne.addParallax(withValue: -60)
+        cloudTwo.addParallax(withValue: 40)
+        flashButton.addParallax(withValue: -20)
     }
     
     // MARK: - IBAction
