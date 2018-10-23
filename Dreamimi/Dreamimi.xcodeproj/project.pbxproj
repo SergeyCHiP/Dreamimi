@@ -54,7 +54,6 @@
 			children = (
 				CD84FDAE217E1C190078FB70 /* Common */,
 				CD84FDAC217E1A8B0078FB70 /* View Controller */,
-				CDC4124A21746422006C7E3C /* Main.storyboard */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -71,6 +70,7 @@
 		CD84FDAD217E1BDB0078FB70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CDC4124A21746422006C7E3C /* Main.storyboard */,
 				CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */,
 				CDC4124D21746424006C7E3C /* Assets.xcassets */,
 				CDC4125221746424006C7E3C /* Info.plist */,
