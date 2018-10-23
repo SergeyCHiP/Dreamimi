@@ -8,6 +8,7 @@
 
 import UIKit
 
+/*
 final class LabelH1: UILabel {
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -42,3 +43,4 @@ final class LabelBT2: UILabel {
         font = .rb12
     }
 }
+*/
