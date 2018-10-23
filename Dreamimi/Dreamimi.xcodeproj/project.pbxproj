@@ -11,6 +11,8 @@
 		CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB1217E1CFF0078FB70 /* Fonts.swift */; };
 		CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB3217E24350078FB70 /* MainButton.swift */; };
 		CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB5217F56BF0078FB70 /* Colors.swift */; };
+		CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBD217F6A370078FB70 /* Shakable.swift */; };
+		CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
 		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
 		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		CD84FDB1217E1CFF0078FB70 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CD84FDB3217E24350078FB70 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		CD84FDB5217F56BF0078FB70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CD84FDBD217F6A370078FB70 /* Shakable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
+		CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				CD84FDAF217E1CD20078FB70 /* Label.swift */,
 				CD84FDB3217E24350078FB70 /* MainButton.swift */,
 				CD84FDB5217F56BF0078FB70 /* Colors.swift */,
+				CD84FDBD217F6A370078FB70 /* Shakable.swift */,
+				CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 			files = (
 				CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */,
 				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
+				CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */,
+				CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */,
 				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,
 				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
 				CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */,

@@ -10,19 +10,24 @@ import UIKit
 
 final class MainViewController: UIViewController {
 
+    // MARK: - IBOutlet
+    
     @IBOutlet private weak var flashButton: UIButton!
     
-    
+    // MARK: - UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    // MARK: - IBAction
 
     @IBAction func flashTapped(_ sender: Any) {
         // Инициализируем генератор
         let generator = UINotificationFeedbackGenerator()
         // Вызываем taptic feedback с типом success
-        generator.notificationOccurred(.success)
+        generator.notificationOccurred(.error)
+        flashButton.shake()
     }
     
 }
