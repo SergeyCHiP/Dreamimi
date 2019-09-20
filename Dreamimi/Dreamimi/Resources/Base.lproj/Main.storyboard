@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wt8-VQ-yXI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wt8-VQ-yXI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -128,6 +128,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picCloudOne" translatesAutoresizingMaskIntoConstraints="NO" id="77L-6z-ES1">
+                                <rect key="frame" x="-274" y="48" width="572" height="372"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightningDownloadPng11527935702Oan47Ec7Ur" translatesAutoresizingMaskIntoConstraints="NO" id="vY4-tK-keR">
+                                <rect key="frame" x="-216" y="203" width="666" height="654"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picCloudTwo" translatesAutoresizingMaskIntoConstraints="NO" id="d8X-EB-pLm">
+                                <rect key="frame" x="77" y="325" width="555" height="267"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGc-fW-aSu">
                                 <rect key="frame" x="77" y="177" width="221" height="313"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -143,23 +152,35 @@
                         </subviews>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.24705882352941178" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="vY4-tK-keR" firstAttribute="top" secondItem="d8X-EB-pLm" secondAttribute="top" constant="-122" id="3tv-cx-auz"/>
                             <constraint firstItem="nGc-fW-aSu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8eY-TU-iad"/>
+                            <constraint firstItem="vY4-tK-keR" firstAttribute="trailing" secondItem="nGc-fW-aSu" secondAttribute="trailing" constant="152" id="QBH-9R-6dR"/>
+                            <constraint firstItem="d8X-EB-pLm" firstAttribute="leading" secondItem="nGc-fW-aSu" secondAttribute="leading" id="TVK-TU-e3x"/>
                             <constraint firstItem="nGc-fW-aSu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VnW-Np-e2u"/>
+                            <constraint firstItem="77L-6z-ES1" firstAttribute="bottom" secondItem="nGc-fW-aSu" secondAttribute="bottom" constant="-70" id="Zq3-Xo-JpW"/>
+                            <constraint firstItem="d8X-EB-pLm" firstAttribute="top" secondItem="nGc-fW-aSu" secondAttribute="top" constant="148" id="d1j-7n-Crn"/>
+                            <constraint firstItem="77L-6z-ES1" firstAttribute="trailing" secondItem="nGc-fW-aSu" secondAttribute="trailing" id="fsH-kf-xUY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="cloudOne" destination="77L-6z-ES1" id="Wsg-gm-ppB"/>
+                        <outlet property="cloudTwo" destination="d8X-EB-pLm" id="g7W-J7-Yfm"/>
                         <outlet property="flashButton" destination="nGc-fW-aSu" id="GYq-np-CXK"/>
+                        <outlet property="lightning" destination="vY4-tK-keR" id="L6b-32-oLo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="190" y="27"/>
+            <point key="canvasLocation" x="260" y="27"/>
         </scene>
     </scenes>
     <resources>
         <image name="icoFlashSmall" width="16" height="16"/>
         <image name="icoHandSmall" width="16" height="16"/>
+        <image name="lightningDownloadPng11527935702Oan47Ec7Ur" width="666" height="654"/>
+        <image name="picCloudOne" width="572" height="372"/>
+        <image name="picCloudTwo" width="555" height="267"/>
         <image name="picFlashLarge" width="221" height="313"/>
         <image name="picRobotLarge" width="221" height="313"/>
     </resources>
