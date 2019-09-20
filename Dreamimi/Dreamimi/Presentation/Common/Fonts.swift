@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIFont {
-    /*
+
     class var rb24: UIFont {
         return UIFont(name: "RobotoMono-Bold", size: 24.0)!
     }
@@ -29,5 +29,4 @@ extension UIFont {
     class var rb12: UIFont {
         return UIFont(name: "RobotoMono-Bold", size: 12.0)!
     }
- */
 }

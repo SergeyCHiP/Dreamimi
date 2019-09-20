@@ -7,32 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDAF217E1CD20078FB70 /* Label.swift */; };
-		CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB1217E1CFF0078FB70 /* Fonts.swift */; };
-		CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB3217E24350078FB70 /* MainButton.swift */; };
-		CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDB5217F56BF0078FB70 /* Colors.swift */; };
-		CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBD217F6A370078FB70 /* Shakable.swift */; };
-		CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */; };
-		CD84FDC7217F8F280078FB70 /* MainViewController-World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */; };
+		CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */; };
+		CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */; };
+		CDA8C5B92334D75F0090F8EF /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AE2334D75F0090F8EF /* Label.swift */; };
+		CDA8C5BA2334D75F0090F8EF /* ParallaxMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */; };
+		CDA8C5BB2334D75F0090F8EF /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B02334D75F0090F8EF /* Fonts.swift */; };
+		CDA8C5BC2334D75F0090F8EF /* Shakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B12334D75F0090F8EF /* Shakable.swift */; };
+		CDA8C5BD2334D75F0090F8EF /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B22334D75F0090F8EF /* MainButton.swift */; };
+		CDA8C5BE2334D75F0090F8EF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B32334D75F0090F8EF /* Colors.swift */; };
+		CDA8C5BF2334D75F0090F8EF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */; };
+		CDA8C5C02334D75F0090F8EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B62334D75F0090F8EF /* MainViewController.swift */; };
+		CDA8C5C12334D75F0090F8EF /* MainViewController-World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */; };
+		CDA8C5C42334D7860090F8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8C5C22334D7860090F8EF /* Main.storyboard */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
-		CDC4124921746422006C7E3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124821746422006C7E3C /* MainViewController.swift */; };
-		CDC4124C21746422006C7E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124A21746422006C7E3C /* Main.storyboard */; };
 		CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124D21746424006C7E3C /* Assets.xcassets */; };
 		CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD84FDAF217E1CD20078FB70 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		CD84FDB1217E1CFF0078FB70 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		CD84FDB3217E24350078FB70 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
-		CD84FDB5217F56BF0078FB70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		CD84FDBD217F6A370078FB70 /* Shakable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
-		CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
-		CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
+		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		CDA8C5AE2334D75F0090F8EF /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxMotion.swift; sourceTree = "<group>"; };
+		CDA8C5B02334D75F0090F8EF /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CDA8C5B12334D75F0090F8EF /* Shakable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakable.swift; sourceTree = "<group>"; };
+		CDA8C5B22334D75F0090F8EF /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		CDA8C5B32334D75F0090F8EF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		CDA8C5B62334D75F0090F8EF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
+		CDA8C5C32334D7860090F8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDC4124821746422006C7E3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		CDC4124B21746422006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC4124D21746424006C7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC4125021746424006C7E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC4125221746424006C7E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,28 +55,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD84FDAB217E1A7B0078FB70 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				CD84FDAE217E1C190078FB70 /* Common */,
-				CD84FDAC217E1A8B0078FB70 /* View Controller */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		CD84FDAC217E1A8B0078FB70 /* View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CD84FDC5217F8F0C0078FB70 /* Helper */,
-				CDC4124821746422006C7E3C /* MainViewController.swift */,
-			);
-			path = "View Controller";
-			sourceTree = "<group>";
-		};
 		CD84FDAD217E1BDB0078FB70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CDC4124A21746422006C7E3C /* Main.storyboard */,
+				CDA8C5C22334D7860090F8EF /* Main.storyboard */,
+				CD84FDBA217F65BE0078FB70 /* RobotoMono-Bold.ttf */,
+				CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */,
 				CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */,
 				CDC4124D21746424006C7E3C /* Assets.xcassets */,
 				CDC4125221746424006C7E3C /* Info.plist */,
@@ -78,23 +68,42 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CD84FDAE217E1C190078FB70 /* Common */ = {
+		CDA8C5AC2334D75F0090F8EF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				CD84FDB1217E1CFF0078FB70 /* Fonts.swift */,
-				CD84FDAF217E1CD20078FB70 /* Label.swift */,
-				CD84FDB3217E24350078FB70 /* MainButton.swift */,
-				CD84FDB5217F56BF0078FB70 /* Colors.swift */,
-				CD84FDBD217F6A370078FB70 /* Shakable.swift */,
-				CD84FDBF217F6B4B0078FB70 /* ParallaxMotion.swift */,
+				CDA8C5AD2334D75F0090F8EF /* Common */,
+				CDA8C5B42334D75F0090F8EF /* View Controller */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CDA8C5AD2334D75F0090F8EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5AE2334D75F0090F8EF /* Label.swift */,
+				CDA8C5AF2334D75F0090F8EF /* ParallaxMotion.swift */,
+				CDA8C5B02334D75F0090F8EF /* Fonts.swift */,
+				CDA8C5B12334D75F0090F8EF /* Shakable.swift */,
+				CDA8C5B22334D75F0090F8EF /* MainButton.swift */,
+				CDA8C5B32334D75F0090F8EF /* Colors.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		CD84FDC5217F8F0C0078FB70 /* Helper */ = {
+		CDA8C5B42334D75F0090F8EF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CD84FDC6217F8F280078FB70 /* MainViewController-World.swift */,
+				CDA8C5B52334D75F0090F8EF /* IntroViewController.swift */,
+				CDA8C5B62334D75F0090F8EF /* MainViewController.swift */,
+				CDA8C5B72334D75F0090F8EF /* Helper */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		CDA8C5B72334D75F0090F8EF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -118,7 +127,7 @@
 		CDC4124521746422006C7E3C /* Dreamimi */ = {
 			isa = PBXGroup;
 			children = (
-				CD84FDAB217E1A7B0078FB70 /* Presentation */,
+				CDA8C5AC2334D75F0090F8EF /* Presentation */,
 				CD84FDAD217E1BDB0078FB70 /* Resources */,
 				CDC4124621746422006C7E3C /* AppDelegate.swift */,
 			);
@@ -184,8 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */,
+				CDA8C5C42334D7860090F8EF /* Main.storyboard in Resources */,
+				CD84FDBC217F65BE0078FB70 /* RobotoMono-Bold.ttf in Resources */,
 				CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */,
-				CDC4124C21746422006C7E3C /* Main.storyboard in Resources */,
+				CD84FDBB217F65BE0078FB70 /* RobotoMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,25 +207,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD84FDB2217E1CFF0078FB70 /* Fonts.swift in Sources */,
-				CD84FDB6217F56BF0078FB70 /* Colors.swift in Sources */,
-				CD84FDC7217F8F280078FB70 /* MainViewController-World.swift in Sources */,
-				CD84FDC0217F6B4B0078FB70 /* ParallaxMotion.swift in Sources */,
-				CD84FDBE217F6A370078FB70 /* Shakable.swift in Sources */,
-				CDC4124921746422006C7E3C /* MainViewController.swift in Sources */,
+				CDA8C5C12334D75F0090F8EF /* MainViewController-World.swift in Sources */,
+				CDA8C5BB2334D75F0090F8EF /* Fonts.swift in Sources */,
+				CDA8C5BC2334D75F0090F8EF /* Shakable.swift in Sources */,
+				CDA8C5BD2334D75F0090F8EF /* MainButton.swift in Sources */,
+				CDA8C5BE2334D75F0090F8EF /* Colors.swift in Sources */,
+				CDA8C5B92334D75F0090F8EF /* Label.swift in Sources */,
 				CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */,
-				CD84FDB0217E1CD20078FB70 /* Label.swift in Sources */,
-				CD84FDB4217E24350078FB70 /* MainButton.swift in Sources */,
+				CDA8C5C02334D75F0090F8EF /* MainViewController.swift in Sources */,
+				CDA8C5BA2334D75F0090F8EF /* ParallaxMotion.swift in Sources */,
+				CDA8C5BF2334D75F0090F8EF /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDC4124A21746422006C7E3C /* Main.storyboard */ = {
+		CDA8C5C22334D7860090F8EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDC4124B21746422006C7E3C /* Base */,
+				CDA8C5C32334D7860090F8EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -351,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79RAZ84TQ5;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
 				INFOPLIST_FILE = Dreamimi/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -360,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -369,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79RAZ84TQ5;
+				DEVELOPMENT_TEAM = 33R4SBX5QU;
 				INFOPLIST_FILE = Dreamimi/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.withloveforalldesigners.Dreamimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
