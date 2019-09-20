@@ -19,10 +19,21 @@
 		CDA8C5C02334D75F0090F8EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B62334D75F0090F8EF /* MainViewController.swift */; };
 		CDA8C5C12334D75F0090F8EF /* MainViewController-World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */; };
 		CDA8C5C42334D7860090F8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8C5C22334D7860090F8EF /* Main.storyboard */; };
+		CDA8C5CC2334DC920090F8EF /* DreamimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C5CB2334DC920090F8EF /* DreamimiUITests.swift */; };
 		CDC4124721746422006C7E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4124621746422006C7E3C /* AppDelegate.swift */; };
 		CDC4124E21746424006C7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124D21746424006C7E3C /* Assets.xcassets */; };
 		CDC4125121746424006C7E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC4124F21746424006C7E3C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA8C5CE2334DC920090F8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC4123B21746422006C7E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC4124221746422006C7E3C;
+			remoteInfo = Dreamimi;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CD84FDB9217F65BE0078FB70 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
@@ -37,6 +48,9 @@
 		CDA8C5B62334D75F0090F8EF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CDA8C5B82334D75F0090F8EF /* MainViewController-World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController-World.swift"; sourceTree = "<group>"; };
 		CDA8C5C32334D7860090F8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA8C5C92334DC920090F8EF /* DreamimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8C5CB2334DC920090F8EF /* DreamimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamimiUITests.swift; sourceTree = "<group>"; };
+		CDA8C5CD2334DC920090F8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC4124321746422006C7E3C /* Dreamimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC4124621746422006C7E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC4124D21746424006C7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CDA8C5C62334DC920090F8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDC4124021746422006C7E3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,10 +129,20 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		CDA8C5CA2334DC920090F8EF /* DreamimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C5CB2334DC920090F8EF /* DreamimiUITests.swift */,
+				CDA8C5CD2334DC920090F8EF /* Info.plist */,
+			);
+			path = DreamimiUITests;
+			sourceTree = "<group>";
+		};
 		CDC4123A21746422006C7E3C = {
 			isa = PBXGroup;
 			children = (
 				CDC4124521746422006C7E3C /* Dreamimi */,
+				CDA8C5CA2334DC920090F8EF /* DreamimiUITests */,
 				CDC4124421746422006C7E3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC4124321746422006C7E3C /* Dreamimi.app */,
+				CDA8C5C92334DC920090F8EF /* DreamimiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +169,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CDA8C5C82334DC920090F8EF /* DreamimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA8C5D02334DC920090F8EF /* Build configuration list for PBXNativeTarget "DreamimiUITests" */;
+			buildPhases = (
+				CDA8C5C52334DC920090F8EF /* Sources */,
+				CDA8C5C62334DC920090F8EF /* Frameworks */,
+				CDA8C5C72334DC920090F8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA8C5CF2334DC920090F8EF /* PBXTargetDependency */,
+			);
+			name = DreamimiUITests;
+			productName = DreamimiUITests;
+			productReference = CDA8C5C92334DC920090F8EF /* DreamimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CDC4124221746422006C7E3C /* Dreamimi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC4125521746424006C7E3C /* Build configuration list for PBXNativeTarget "Dreamimi" */;
@@ -160,10 +210,14 @@
 		CDC4123B21746422006C7E3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Redmadrobot;
 				TargetAttributes = {
+					CDA8C5C82334DC920090F8EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CDC4124221746422006C7E3C;
+					};
 					CDC4124221746422006C7E3C = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -183,11 +237,19 @@
 			projectRoot = "";
 			targets = (
 				CDC4124221746422006C7E3C /* Dreamimi */,
+				CDA8C5C82334DC920090F8EF /* DreamimiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CDA8C5C72334DC920090F8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDC4124121746422006C7E3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +265,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CDA8C5C52334DC920090F8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8C5CC2334DC920090F8EF /* DreamimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDC4123F21746422006C7E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +291,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA8C5CF2334DC920090F8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC4124221746422006C7E3C /* Dreamimi */;
+			targetProxy = CDA8C5CE2334DC920090F8EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CDA8C5C22334D7860090F8EF /* Main.storyboard */ = {
@@ -242,6 +320,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CDA8C5D12334DC920090F8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamimiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymind-team.DreamimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamimi;
+			};
+			name = Debug;
+		};
+		CDA8C5D22334DC920090F8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamimiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymind-team.DreamimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamimi;
+			};
+			name = Release;
+		};
 		CDC4125321746424006C7E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -397,6 +513,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CDA8C5D02334DC920090F8EF /* Build configuration list for PBXNativeTarget "DreamimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA8C5D12334DC920090F8EF /* Debug */,
+				CDA8C5D22334DC920090F8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDC4123E21746422006C7E3C /* Build configuration list for PBXProject "Dreamimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
